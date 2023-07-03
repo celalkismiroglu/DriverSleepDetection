@@ -19,7 +19,7 @@ celal_image_encoding = face_recognition.face_encodings(celal_image)[0]
 
 model = dlib.shape_predictor("shape_predictor_68_face_landmarks.dat")
 
-cap = cv2.VideoCapture("notsleepy.mp4")
+cap = cv2.VideoCapture(0)
 
 
 def mid(p1,p2):
